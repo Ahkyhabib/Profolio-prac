@@ -5,6 +5,7 @@ $a-darkgray: #838080;
 $a-red: #eb1d1d;
 $a-black: #272727;
 $a-bg-gray: #4a5353;
+$a-bg-capacity: rgba(0,0,0,0.4);
 
 // Start of styling
 *,
@@ -303,4 +304,43 @@ a {
   border: $a-darkgray solid 2px;
   padding: 10px;
 }
+
+//Modal and modal content
+.modal {
+  background-color: $a-bg-capacity; //default
+  background-color: $a-black; //backup
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  padding-top: 100px;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+.modal-content {
+  background-color: $a-white;
+  padding: 20px;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
+//Close modal
+.modal-close {
+  color: $a-black;
+  float: right;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+//Modal hover 
+.modal-close:hover, 
+.modal-close:focus {
+  color: $a-darkgray;
+  text-decoration: none;
+  cursor: pointer;
+} 
 

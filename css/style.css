@@ -298,4 +298,9 @@ a {
 .card-text {
   margin-top: 10px;
 }
+
+.card {
+  border: #838080 solid 2px;
+  padding: 10px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -40,7 +40,6 @@ li {
 }
 
 span {
-  background-color: #eb1d1d;
   border-radius: 15px;
   bottom: 7px;
   font-size: 10px;
@@ -312,7 +311,6 @@ a {
   left: 0;
   overflow: auto;
   position: fixed;
-  padding-top: 100px;
   top: 0;
   width: 100%;
   z-index: 50;
@@ -320,10 +318,9 @@ a {
 
 .modal-content {
   background-color: #f9f9f9;
-  padding: 20px;
   margin: auto;
-  width: auto;
-  height: auto;
+  width: 80%;
+  height: 80%;
 }
 
 .modal-close {
@@ -338,5 +335,17 @@ a {
   color: #838080;
   text-decoration: none;
   cursor: pointer;
+}
+
+.codeBase1 {
+  background-color: #272727;
+}
+
+.codeBase1 .social-media {
+  color: #f9f9f9;
+}
+
+.codeBase1 a {
+  color: #f9f9f9;
 }
 /*# sourceMappingURL=style.css.map */

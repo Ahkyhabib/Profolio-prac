@@ -59,7 +59,7 @@ li {
 }
 
 span {
-  background-color: $a-red;
+  //background-color: $a-red;
   border-radius: 15px;
   bottom: 7px;
   font-size: 10px;
@@ -314,7 +314,6 @@ a {
   left: 0;
   overflow: auto;
   position: fixed;
-  padding-top: 100px;
   top: 0;
   width: 100%;
   z-index: 50;
@@ -322,13 +321,12 @@ a {
 
 .modal-content {
   background-color: $a-white;
-  padding: 20px;
   margin: auto;
-  width: auto;
-  height: auto;
+  width: 80%;
+  height: 80%;
 }
 
-//Close modal
+  //Close modal
 .modal-close {
   color: $a-black;
   float: right;
@@ -336,11 +334,25 @@ a {
   font-weight: bold;
 }
 
-//Modal hover 
+  //Modal hover 
 .modal-close:hover, 
 .modal-close:focus {
   color: $a-darkgray;
   text-decoration: none;
   cursor: pointer;
 } 
+
+//Codebase 1
+
+.codeBase1 {
+  background-color: $a-black;
+
+  .social-media {
+    color: $a-white;
+  }
+
+  a {
+    color: $a-white;
+  }
+}
 

@@ -358,7 +358,7 @@ a {
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .sidenav a,
@@ -389,7 +389,7 @@ a {
   padding: 0px 10px;
 }
 
-.code1css {
+.active {
   background-color: green;
   color: white;
 }

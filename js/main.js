@@ -8,12 +8,12 @@ const modalButton = document.querySelector("[data-res-btn]");
 //Span element
 const modalSpan = document.querySelector("[data-modalSpan]");
 
-// Resume button click
+//Resume button click
 modalButton.onclick = function() {
   modal.style.display = "block";
 };
 
-// Exit modal
+//Exit modal
 modalSpan.onclick = function() {
   modal.style.display = "none";
 };
@@ -26,3 +26,20 @@ window.onclick = function(event) {
 };
 
 //Codebase nav
+function openLightBox() {
+  //var itemId = event.target.id;
+  var lightBox = document.getElementsByClassName("dropdown-container");
+  //console.log(lightBox);
+  if ((lightBox[0].style.display = "block"))
+    if ((lightBox[1].style.display = "none"));
+}
+
+//function myFunction() {
+//function codeDrop() {
+//var subMenu = event.target.id;
+//   var subMenu = document.getElementsByClassName(".dropdown - btn");
+//   console.log(subMenu);
+//   subMenu[0].style.display = "block";
+// }
+//alert("testing 123");
+//}

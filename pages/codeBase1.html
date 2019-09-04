@@ -12,7 +12,7 @@
     <title>Akhirah Strong</title>
   </head>
 
-  <body onload="ready()" class="codeBase1">
+  <body class="codeBase1">
     <!-- Home page -->
     <!-- container-frame -->
     <div class="container-frame">
@@ -48,46 +48,49 @@
         </div>
 
         <div class="sidenav">
-          <button class="dropdown-btn" onclick="openLightBox()">
+          <button type="button" class="dropdown-btn">
             css
             <i class="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-container code1css">
+          <div class="dropdown-container code1css" onclick="submenu()" data-sub>
             <a href="#">style.css</a>
             <a href="#">style.css.map</a>
             <a href="#">style.scss</a>
           </div>
-          <button class="dropdown-btn">
+          <button type="button" class="dropdown-btn">
             images
             <i class="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-container code1img">
+          <div class="dropdown-container code1img" onclick="submenu()" data-sub>
             <a href="#">img 1</a>
             <a href="#">img 2</a>
             <a href="#">img 3</a>
           </div>
-          <button class="dropdown-btn">
+          <button type="button" class="dropdown-btn">
             javascript
             <i class="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-container code1js">
+          <div class="dropdown-container code1js" onclick="submenu()" data-sub>
             <a href="#">main.js</a>
-            
           </div>
-          <button class="dropdown-btn">
+          <button type="button" class="dropdown-btn">
             pages
             <i class="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-container code1page">
+          <div
+            class="dropdown-container code1page"
+            onclick="submenu()"
+            data-sub
+          >
             <a href="#">about.html</a>
             <a href="#">codebase.html</a>
             <a href="#">contact.html</a>
           </div>
-          <button class="dropdown-btn">
+          <button type="button" class="dropdown-btn">
             pdf
             <i class="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-container code1pdf">
+          <div class="dropdown-container code1pdf" onclick="submenu()" data-sub>
             <a href="#">resume.pdf</a>
           </div>
           <a href="#contact">index.html</a>

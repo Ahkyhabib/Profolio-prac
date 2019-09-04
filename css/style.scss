@@ -1,33 +1,34 @@
 // Color variables
-$a-white: #f9f9f9;
-$a-lightgray: #9c9898;
-$a-darkgray: #838080;
-$a-red: #eb1d1d;
 $a-black: #272727;
-$a-bg-gray: #4a5353;
 $a-bg-capacity: rgba(0, 0, 0, 0.4);
+$a-bg-gray: #4a5353;
+$a-darkgray: #838080;
+$a-lightgray: #9c9898;
+$a-red: #eb1d1d;
+$a-white: #f9f9f9;
 $code-blue: #3741d1;
 
 // Color variables for code example html
-$tag: rgb(56, 70, 151);
 $class: rgb(101, 101, 143);
-$source: rgb(165, 122, 42);
 $comment: rgba(86, 153, 86, 0.644);
+$source: rgb(165, 122, 42);
+$tag: rgb(56, 70, 151);
 $text: rgb(235, 232, 232);
 
 // Color variables for code example scss
-$selector: rgb(155, 137, 39);
-$declare-text: rgb(153, 108, 66);
-$declare-num: rgb(173, 185, 130);
 $bracket: gold;
+$declare-num: rgb(173, 185, 130);
+$declare-text: rgb(153, 108, 66);
+$selector: rgb(155, 137, 39);
 
 // Color variables for code example scss
-$var: rgb(45, 45, 243);
-$var-name: rgb(100, 144, 211);
 $condition: rgb(170, 87, 170);
 $condition-brac: rgb(165, 65, 165);
-$value: rgb(153, 108, 66);
 $number: rgb(226, 222, 222);
+$value: rgb(153, 108, 66);
+$var: rgb(45, 45, 243);
+$var-name: rgb(100, 144, 211);
+
 // Start of styling
 *,
 *::before,
